@@ -1,0 +1,240 @@
+https://texviewer.herokuapp.com/
+
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://cemayan.me/}{\Large Cem Ayan}} & Email : \href{mailto:cem\_ayan@outlook.com}{cem\_ayan@outlook.com}\\
+    \textbf{\textit{Software Developer}}\\
+  \href{https://cemayan.me/}{https://cemayan.info} & Mobile : 0537 641 31 06 \\
+  \href{https://github.com/cemayan}{https://github.com/cemayan}  \\
+    \href{https://medium.com/@cemayan}{https://medium.com/@cemayan}
+\end{tabular*}
+    
+
+%-----------SUMMARY-----------------
+\section{Summary}
+	\small{I worked professionally in the Development, QA and R\&D departments. Initially I started to develop projects using C\# in Microsoft technologies, thereafter I have started to use different languages such as  Java, Python and Go. Now I'm working with the big data ecosystem. I have a special interest in Machine Learning and Deep Learning. I follow events closely to improve myself, and I like to pass on the information I have just learned to people.}
+
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+  
+  
+  
+      \resumeSubheading
+      {Oredata}{}
+      {Software Engineer/Data Engineer  - Ingame(Zula Game)}{January 2020 - Present - Present}
+      \resumeItemListStart
+        \resumeItem{}
+		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios(Go, Kubernetes Engine, Apache Flink)}
+    
+      \resumeItemListEnd
+  
+  
+  
+      \resumeSubheading
+      {Oredata}{}
+      {Software Engineer/Data Engineer  - n11}{April 2019 - Present}
+      \resumeItemListStart
+        \resumeItem{}
+		{Building a tool that creates and schedules rule-based segments, like  euromessage(Google BigQuery, Spring Boot, Airflow, Quartz, Kafka, Go etc )}
+        \resumeItem{}
+		{Building a UI where we can manage segments and other units}
+    
+      \resumeItemListEnd
+  
+  
+      \resumeSubheading
+      {Oredata}{}
+      {Software Engineer/Data Engineer  - Defacto}{April 2019 - Present}
+      \resumeItemListStart
+        \resumeItem{}
+		{Recommendation Engine with Apache prediction.io(Kafka, Hbase, Spark Mllib, Hadoop, Spring Boot, Go etc)  }
+         \resumeItem{}
+		{Javascript SDK to send events and show recommended products(mustache.js, swiper, vanilla js) }
+
+            
+      \resumeItemListEnd
+  
+  
+ 
+      \resumeSubheading
+      {Oredata}{}
+      {Software Engineer - Turk Telekom}{December 2018 - April 2019}
+      \resumeItemListStart
+        \resumeItem{}
+          {Data manipulation, visualization and summarization on big data (pandas, numpy etc)}
+        \resumeItem{}
+          {Data analysis with Node.js on big data (ES6+ and Built-in modules, D3.js and other manupulation tools)}
+     
+      \resumeItemListEnd
+      
+      
+    \resumeSubheading
+      {Segmentify}{}
+      {Software Developer}{November 2017 - November 2018}
+      \resumeItemListStart
+        \resumeItem{}
+          {Push Notification development processes(APNs, Firebase)}
+        \resumeItem{}
+          {Android and iOS SDK  development processes (Kotlin and Swift)}
+        \resumeItem{}
+          {Other  development processes(Spring Boot, Redis etc)}  
+     
+      \resumeItemListEnd
+
+
+    \resumeSubheading
+      {Segmentify}{}
+      {Frontend Developer}{April 2017 - October 2017}
+      \resumeItemListStart
+        \resumeItem{}
+          {Adding JavaScript integration to customers(JS)}
+         \resumeItem{}
+          {We made widget,popup banner,push notification etc. based on customer requests}
+         \resumeItem{}
+          {Segment by customer actions and show appropriate campaigns(JS)}
+      \resumeItemListEnd
+
+
+
+    \resumeSubheading
+      {Alpata Yazılım ve Teknoloji}{Eskisehir}
+      {Full Stack Developer}{October 2016 - April 2017}
+      \resumeItemListStart
+      	  \resumeItem{}
+          {Develop B2B applications and custom software for companies(ASP.NET MVC)}  
+          \resumeItem{}
+          {CRM application to be used for the company(ASP.NET MVC)}      
+
+     \resumeItemListEnd
+
+                      
+
+  \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Osmangazi University}{Eskisehir}
+      {Matematik-Bilgisayar;  GPA: 2.68}{September 2011 -- August 2016}
+  \resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Languages :}{ Java, Javascript, Python, Go}
+     \item     
+      \textbf{Frameworks and Libraries : }{ Spring Boot, Spring Cloud,Spring Security,Spring MVC, React, Node.js }
+      \item     
+      \textbf{Databases : }{ MSSQL, PostgreSQL, MongoDB, Redis, Elasticsearch, MySQL }
+      \item     
+      \textbf{Container/Management Tool : }{ Docker, Kubernetes Engine }
+      \item 
+      \textbf{ CI/CD : }{ Jenkins, Gitlab CI/CD } 
+      \item     
+      \textbf{ Version Control System : }{ git }
+       \item     
+      \textbf{ BigData and Stream Processing : }{ Hadoop, Spark, Hbase, Flink, Airflow, Beam, Kafka } 
+      \item  
+      \textbf{ Recommendation Framework : }{ PredictionIO } 
+      \item 
+      \textbf{ Testing Framework : }{ JUnit } 
+      \item 
+      \textbf{ Project Management : }{ Jenkins } 
+      \item 
+      \textbf{ Cloud : }{ Gcloud }
+    }
+  \resumeSubHeadingListEnd
+
+
+
+
+
+
+
+
+
+
+
+%-------------------------------------------
+\end{document}
