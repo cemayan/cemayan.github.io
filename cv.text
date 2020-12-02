@@ -1,5 +1,7 @@
 https://texviewer.herokuapp.com/
 
+
+
 %-------------------------
 % Resume in Latex
 % Author : Sourabh Bajaj
@@ -46,7 +48,7 @@ https://texviewer.herokuapp.com/
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
-  \item\small{
+  \item\footnotesize{
     \textbf{#1}{ #2 \vspace{-2pt}}
   }
 }
@@ -55,7 +57,7 @@ https://texviewer.herokuapp.com/
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\footnotesize#3} & \textit{\footnotesize #4} \\
     \end{tabular*}\vspace{-5pt}
 }
 
@@ -86,7 +88,7 @@ https://texviewer.herokuapp.com/
 
 %-----------SUMMARY-----------------
 \section{Summary}
-	\small{I worked professionally in the Development, QA and R\&D departments. Initially I started to develop projects using C\# in Microsoft technologies, thereafter I have started to use different languages such as  Java, Python and Go. Now I'm working with the big data ecosystem. I have a special interest in Machine Learning and Deep Learning. I follow events closely to improve myself, and I like to pass on the information I have just learned to people.}
+	\footnotesize{I worked professionally in the Development, QA and R\&D departments.I have a special interest in Machine Learning and Deep Learning. I follow events closely to improve myself, and I like to pass on the information I have just learned to people. I'm a die-hard cinema/cycling/chess fan. I love to listen to metal, especially progressive and melodic death. Nothing is unthinkable without science so I happily devoted my life to science. finally, we will take over this world with my cat :) }
 
 
 
@@ -94,11 +96,40 @@ https://texviewer.herokuapp.com/
 \section{Experience}
   \resumeSubHeadingListStart
   
+
+      \resumeSubheading
+      { itelligence TR}{}
+      {Senior Software Engineer}{July 2020  - Present}
+         \resumeItemListStart
+         \resumeItem{}  
+          {Ranking of customers according to the loyalty program.(Spring Boot, Spring Cloud, Spring Security)}
+            \resumeItem{}
+           {RFM scoring for clients}
+          \resumeItem{}
+         {GDPR and KVKK integration (SMS permissions)}
+         \resumeItem{}
+   	 	 {Creating Event Driven Architecture to feed data to external systems (Apache MQ)}
+        \resumeItem{}
+         {Developing the CI/CD pipeline(Jenkins)}
+
+        
+     
+      \resumeItemListEnd
+
+
+
+      \resumeSubheading
+      {Oredata(Consultant)}{}
+      {Software Engineer  - BKM}{April 2020  - July 2020}
+      \resumeItemListStart
+        \resumeItem{}
+		{Developing the applications of the Interbank Card Center(OpenShift, Jenkins, Liquibase, Hazelcast, Prometheus, Spring Cloud, Spring Boot,... )}
+      \resumeItemListEnd
   
   
       \resumeSubheading
-      {Oredata}{}
-      {Software Engineer/Data Engineer  - Ingame(Zula Game)}{January 2020 - Present - Present}
+      {Oredata(Consultant)}{}
+      {Software Engineer/Data Engineer  - Ingame(Zula Game)}{January 2020  - April 2020}
       \resumeItemListStart
         \resumeItem{}
 		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios(Go, Kubernetes Engine, Apache Flink)}
@@ -106,10 +137,9 @@ https://texviewer.herokuapp.com/
       \resumeItemListEnd
   
   
-  
       \resumeSubheading
-      {Oredata}{}
-      {Software Engineer/Data Engineer  - n11}{April 2019 - Present}
+      {Oredata(Consultant)}{}
+      {Software Engineer/Data Engineer  - n11}{April 2019 - March 2020}
       \resumeItemListStart
         \resumeItem{}
 		{Building a tool that creates and schedules rule-based segments, like  euromessage(Google BigQuery, Spring Boot, Airflow, Quartz, Kafka, Go etc )}
@@ -120,8 +150,8 @@ https://texviewer.herokuapp.com/
   
   
       \resumeSubheading
-      {Oredata}{}
-      {Software Engineer/Data Engineer  - Defacto}{April 2019 - Present}
+      {Oredata(Consultant)}{}
+      {Software Engineer/Data Engineer  - Defacto}{April 2019 - March 2020}
       \resumeItemListStart
         \resumeItem{}
 		{Recommendation Engine with Apache prediction.io(Kafka, Hbase, Spark Mllib, Hadoop, Spring Boot, Go etc)  }
@@ -134,7 +164,7 @@ https://texviewer.herokuapp.com/
   
  
       \resumeSubheading
-      {Oredata}{}
+      {Oredata(Consultant)}{}
       {Software Engineer - Turk Telekom}{December 2018 - April 2019}
       \resumeItemListStart
         \resumeItem{}
@@ -155,21 +185,15 @@ https://texviewer.herokuapp.com/
           {Android and iOS SDK  development processes (Kotlin and Swift)}
         \resumeItem{}
           {Other  development processes(Spring Boot, Redis etc)}  
-     
-      \resumeItemListEnd
-
-
-    \resumeSubheading
-      {Segmentify}{}
-      {Frontend Developer}{April 2017 - October 2017}
-      \resumeItemListStart
         \resumeItem{}
           {Adding JavaScript integration to customers(JS)}
          \resumeItem{}
           {We made widget,popup banner,push notification etc. based on customer requests}
          \resumeItem{}
           {Segment by customer actions and show appropriate campaigns(JS)}
+     
       \resumeItemListEnd
+
 
 
 
@@ -214,13 +238,13 @@ https://texviewer.herokuapp.com/
       \item     
       \textbf{ Version Control System : }{ git }
        \item     
-      \textbf{ BigData and Stream Processing : }{ Hadoop, Spark, Hbase, Flink, Airflow, Beam, Kafka } 
+      \textbf{ BigData and Stream Processing : }{ Hadoop, Spark, Hbase, Flink, Airflow, Kafka } 
       \item  
       \textbf{ Recommendation Framework : }{ PredictionIO } 
       \item 
       \textbf{ Testing Framework : }{ JUnit } 
       \item 
-      \textbf{ Project Management : }{ Jenkins } 
+      \textbf{ Project Management : }{ Jira } 
       \item 
       \textbf{ Cloud : }{ Gcloud }
     }
@@ -228,6 +252,23 @@ https://texviewer.herokuapp.com/
 
 
 
+
+%--------PROGRAMMING SKILLS------------
+\section{Personal Projects}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Earthquake Collector}
+      \resumeItemListStart
+        \resumeItem{}
+          {Earthquake analysis according to a determined location}
+         \resumeItem{}
+          {Sending the analyzed earthquakes to the phone as a push.} 
+          \href{https://medium.com/@cemayan/deprem-verisi-toplama-ve-analizi-part-1-e105a0a9697b/}{See in Medium(Turkish)}. 
+      \resumeItemListEnd
+      
+      
+  \resumeSubHeadingListEnd
 
 
 
