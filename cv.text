@@ -1,5 +1,3 @@
-https://texviewer.herokuapp.com/
-
 
 
 %-------------------------
@@ -78,9 +76,9 @@ https://texviewer.herokuapp.com/
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://cemayan.me/}{\Large Cem Ayan}} & Email : \href{mailto:cem\_ayan@outlook.com}{cem\_ayan@outlook.com}\\
+  \textbf{\href{http://cemayan.com/}{\Large Cem Ayan}} & Email : \href{mailto:cem\_ayan@outlook.com}{cem\_ayan@outlook.com}\\
     \textbf{\textit{Software Developer}}\\
-  \href{https://cemayan.me/}{https://cemayan.info} & Mobile : 0537 641 31 06 \\
+   & Mobile : +905376413106 \\
   \href{https://github.com/cemayan}{https://github.com/cemayan}  \\
     \href{https://medium.com/@cemayan}{https://medium.com/@cemayan}
 \end{tabular*}
@@ -96,10 +94,30 @@ https://texviewer.herokuapp.com/
 \section{Experience}
   \resumeSubHeadingListStart
   
+  
+        \resumeSubheading
+      { Mynet Games}{}
+      {Senior Software Engineer}{January 2021  - Present}
+         \resumeItemListStart
+         \resumeItem{}  
+          {In order to sending an events over Unity Clients , it was developed SDK}
+          \resumeItem{}
+         { In order to collect game events , game analytics pipeline has been created on AWS. (Fargate, Kinesis Data Stream, Firehose, Lambda, S3, SNS, SQS, CodeDeploy)}
+         \resumeItem{}
+   	 	 {A panel was developed to manage events in realtime. (React, AWS Amplify, Lambda)}
+        \resumeItem{}
+         { In order to showing data on Tableau, configured Snowflake as DWH}
+                 \resumeItem{}
+         { ETL processes created with Apache Airflow}
+                      \resumeItem{}
+         {  CI / CD pipeline for Unity Android / iOS build.(Jenkins)}
+      \resumeItemListEnd
+
+
 
       \resumeSubheading
       { itelligence TR}{}
-      {Senior Software Engineer}{July 2020  - Present}
+      {Senior Software Engineer}{July 2020  - January 2021}
          \resumeItemListStart
          \resumeItem{}  
           {Ranking of customers according to the loyalty program.(Spring Boot, Spring Cloud, Spring Security)}
@@ -111,35 +129,30 @@ https://texviewer.herokuapp.com/
    	 	 {Creating Event Driven Architecture to feed data to external systems (Apache MQ)}
         \resumeItem{}
          {Developing the CI/CD pipeline(Jenkins)}
-
-        
-     
       \resumeItemListEnd
 
 
 
       \resumeSubheading
-      {Oredata(Consultant)}{}
-      {Software Engineer  - BKM}{April 2020  - July 2020}
+      {Oredata(Consultant)}{ December 2018 - July 2020}
+      
+       \textbf{Software Engineer  - BKM }
       \resumeItemListStart
         \resumeItem{}
 		{Developing the applications of the Interbank Card Center(OpenShift, Jenkins, Liquibase, Hazelcast, Prometheus, Spring Cloud, Spring Boot,... )}
       \resumeItemListEnd
   
   
-      \resumeSubheading
-      {Oredata(Consultant)}{}
-      {Software Engineer/Data Engineer  - Ingame(Zula Game)}{January 2020  - April 2020}
+
+       \textbf{Software Engineer/Data Engineer  - Ingame(Zula Game) }
       \resumeItemListStart
         \resumeItem{}
 		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios(Go, Kubernetes Engine, Apache Flink)}
     
       \resumeItemListEnd
-  
-  
-      \resumeSubheading
-      {Oredata(Consultant)}{}
-      {Software Engineer/Data Engineer  - n11}{April 2019 - March 2020}
+ 
+
+       \textbf{Software Engineer/Data Engineer  - n11 }
       \resumeItemListStart
         \resumeItem{}
 		{Building a tool that creates and schedules rule-based segments, like  euromessage(Google BigQuery, Spring Boot, Airflow, Quartz, Kafka, Go etc )}
@@ -148,10 +161,8 @@ https://texviewer.herokuapp.com/
     
       \resumeItemListEnd
   
-  
-      \resumeSubheading
-      {Oredata(Consultant)}{}
-      {Software Engineer/Data Engineer  - Defacto}{April 2019 - March 2020}
+
+      \textbf{Software Engineer/Data Engineer  - Defacto }
       \resumeItemListStart
         \resumeItem{}
 		{Recommendation Engine with Apache prediction.io(Kafka, Hbase, Spark Mllib, Hadoop, Spring Boot, Go etc)  }
@@ -162,10 +173,7 @@ https://texviewer.herokuapp.com/
       \resumeItemListEnd
   
   
- 
-      \resumeSubheading
-      {Oredata(Consultant)}{}
-      {Software Engineer - Turk Telekom}{December 2018 - April 2019}
+        \textbf{Software Engineer - Turk Telekom }
       \resumeItemListStart
         \resumeItem{}
           {Data manipulation, visualization and summarization on big data (pandas, numpy etc)}
@@ -177,7 +185,7 @@ https://texviewer.herokuapp.com/
       
     \resumeSubheading
       {Segmentify}{}
-      {Software Developer}{November 2017 - November 2018}
+      {Software Developer}{April 2017 - November 2018}
       \resumeItemListStart
         \resumeItem{}
           {Push Notification development processes(APNs, Firebase)}
@@ -193,21 +201,6 @@ https://texviewer.herokuapp.com/
           {Segment by customer actions and show appropriate campaigns(JS)}
      
       \resumeItemListEnd
-
-
-
-
-    \resumeSubheading
-      {Alpata Yazılım ve Teknoloji}{Eskisehir}
-      {Full Stack Developer}{October 2016 - April 2017}
-      \resumeItemListStart
-      	  \resumeItem{}
-          {Develop B2B applications and custom software for companies(ASP.NET MVC)}  
-          \resumeItem{}
-          {CRM application to be used for the company(ASP.NET MVC)}      
-
-     \resumeItemListEnd
-
                       
 
   \resumeSubHeadingListEnd
@@ -226,11 +219,11 @@ https://texviewer.herokuapp.com/
 \section{Programming Skills}
   \resumeSubHeadingListStart
     \item{
-      \textbf{Languages :}{ Java, Javascript, Python, Go}
+      \textbf{Languages :}{ Java, Go, Javascript}
      \item     
       \textbf{Frameworks and Libraries : }{ Spring Boot, Spring Cloud,Spring Security,Spring MVC, React, Node.js }
       \item     
-      \textbf{Databases : }{ MSSQL, PostgreSQL, MongoDB, Redis, Elasticsearch, MySQL }
+      \textbf{Databases : }{ PostgreSQL, MongoDB, Redis, Elasticsearch, MySQL }
       \item     
       \textbf{Container/Management Tool : }{ Docker, Kubernetes Engine }
       \item 
@@ -246,29 +239,12 @@ https://texviewer.herokuapp.com/
       \item 
       \textbf{ Project Management : }{ Jira } 
       \item 
-      \textbf{ Cloud : }{ Gcloud }
+      \textbf{ Cloud : }{ AWS ,Gcloud }
     }
   \resumeSubHeadingListEnd
 
 
 
-
-%--------PROGRAMMING SKILLS------------
-\section{Personal Projects}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Earthquake Collector}
-      \resumeItemListStart
-        \resumeItem{}
-          {Earthquake analysis according to a determined location}
-         \resumeItem{}
-          {Sending the analyzed earthquakes to the phone as a push.} 
-          \href{https://medium.com/@cemayan/deprem-verisi-toplama-ve-analizi-part-1-e105a0a9697b/}{See in Medium(Turkish)}. 
-      \resumeItemListEnd
-      
-      
-  \resumeSubHeadingListEnd
 
 
 
