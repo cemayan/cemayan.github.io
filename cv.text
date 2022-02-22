@@ -77,7 +77,7 @@ https://texviewer.herokuapp.com
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{http://cemayan.com/}{\Large Cem Ayan}} & Email : \href{mailto:cem\_ayan@outlook.com}{cem\_ayan@outlook.com}\\
-    \textbf{\textit{Software Developer}}\\
+    \textbf{\textit{Software/Data Engineer}}\\
    & Mobile : +905376413106 \\
   \href{https://github.com/cemayan}{https://github.com/cemayan}  \\
     \href{https://medium.com/@cemayan}{https://medium.com/@cemayan}
@@ -97,7 +97,7 @@ https://texviewer.herokuapp.com
   
         \resumeSubheading
       { Mynet Games}{}
-      {Senior Software Engineer}{January 2021  - Present}
+      {Senior Software/Data Engineer}{January 2021  - Present}
          \resumeItemListStart
          \resumeItem{}  
           {In order to sending an events over Unity Clients , it was developed SDK}
@@ -144,7 +144,7 @@ https://texviewer.herokuapp.com
   
   
 
-       \textbf{Software Engineer/Data Engineer  - Ingame(Zula Game) }
+       \textbf{Software/Data Engineer  - Ingame(Zula Game) }
       \resumeItemListStart
         \resumeItem{}
 		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios(Go, Kubernetes Engine, Apache Flink)}
@@ -162,7 +162,7 @@ https://texviewer.herokuapp.com
       \resumeItemListEnd
   
 
-      \textbf{Software Engineer/Data Engineer  - Defacto }
+      \textbf{Software/Data Engineer  - Defacto }
       \resumeItemListStart
         \resumeItem{}
 		{Recommendation Engine with Apache prediction.io(Kafka, Hbase, Spark Mllib, Hadoop, Spring Boot, Go etc)  }
