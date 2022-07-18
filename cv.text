@@ -1,5 +1,6 @@
 https://texviewer.herokuapp.com
 
+
 %-------------------------
 % Resume in Latex
 % Author : Sourabh Bajaj
@@ -77,7 +78,7 @@ https://texviewer.herokuapp.com
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{http://cemayan.com/}{\Large Cem Ayan}} & Email : \href{mailto:cem\_ayan@outlook.com}{cem\_ayan@outlook.com}\\
-    \textbf{\textit{Software/Data Engineer}}\\
+    \textbf{\textit{Software Engineer}}\\
    & Mobile : +905376413106 \\
   \href{https://github.com/cemayan}{https://github.com/cemayan}  \\
     \href{https://medium.com/@cemayan}{https://medium.com/@cemayan}
@@ -97,12 +98,12 @@ https://texviewer.herokuapp.com
   
         \resumeSubheading
       { Mynet Games}{}
-      {Senior Software/Data Engineer}{January 2021  - Present}
+      {Senior Software Engineer}{January 2021  - Present}
          \resumeItemListStart
          \resumeItem{}  
           {In order to sending an events over Unity Clients , it was developed SDK}
           \resumeItem{}
-         { In order to collect game events , game analytics pipeline has been created on AWS. (Fargate, Kinesis Data Stream, Firehose, Lambda, S3, SNS, SQS, CodeDeploy)}
+         { In order to collect game events , game analytics pipeline has been created on AWS. (Fargate, Kinesis Data Stream, Firehose, Lambda, S3, SNS, SQS, CodeDeploy, Golang)}
          \resumeItem{}
    	 	 {A panel was developed to manage events in realtime. (React, AWS Amplify, Lambda)}
         \resumeItem{}
@@ -147,7 +148,7 @@ https://texviewer.herokuapp.com
        \textbf{Software/Data Engineer  - Ingame(Zula Game) }
       \resumeItemListStart
         \resumeItem{}
-		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios(Go, Kubernetes Engine, Apache Flink)}
+		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios(Golang, Kubernetes Engine, Apache Flink)}
     
       \resumeItemListEnd
  
@@ -155,7 +156,7 @@ https://texviewer.herokuapp.com
        \textbf{Software Engineer/Data Engineer  - n11 }
       \resumeItemListStart
         \resumeItem{}
-		{Building a tool that creates and schedules rule-based segments, like  euromessage(Google BigQuery, Spring Boot, Airflow, Quartz, Kafka, Go etc )}
+		{Building a tool that creates and schedules rule-based segments, like  euromessage(Google BigQuery, Spring Boot, Airflow, Quartz, Kafka, Golang )}
         \resumeItem{}
 		{Building a UI where we can manage segments and other units}
     
@@ -165,7 +166,7 @@ https://texviewer.herokuapp.com
       \textbf{Software/Data Engineer  - Defacto }
       \resumeItemListStart
         \resumeItem{}
-		{Recommendation Engine with Apache prediction.io(Kafka, Hbase, Spark Mllib, Hadoop, Spring Boot, Go etc)  }
+		{Recommendation Engine with Apache prediction.io(Kafka, Hbase, Spark Mllib, Hadoop, Spring Boot, Golang)  }
          \resumeItem{}
 		{Javascript SDK to send events and show recommended products(mustache.js, swiper, vanilla js) }
 
