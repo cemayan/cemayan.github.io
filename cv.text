@@ -1,6 +1,5 @@
 https://texviewer.herokuapp.com
 
-
 %-------------------------
 % Resume in Latex
 % Author : Sourabh Bajaj
@@ -87,7 +86,9 @@ https://texviewer.herokuapp.com
 
 %-----------SUMMARY-----------------
 \section{Summary}
-	\footnotesize{I worked professionally in the Development, QA and R\&D departments.I have a special interest in Machine Learning and Deep Learning. I follow events closely to improve myself, and I like to pass on the information I have just learned to people. I'm a die-hard cinema/cycling/chess fan. I love to listen to metal, especially progressive and melodic death. Nothing is unthinkable without science so I happily devoted my life to science. finally, we will take over this world with my cat :) }
+	\footnotesize{As a software engineer, I developed microservices and APIs in high-scale and high-traffic projects with Java and Golang and I continue to improve myself in this field. Although I am particularly interested in distributed systems and microservices, I am also interested in other areas.
+
+As a data engineer, I worked in sectors such as games and e-commerce and took part in the creation of DWH architectures in these areas.}
 
 
 
