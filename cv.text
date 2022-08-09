@@ -101,86 +101,56 @@ As a data engineer, I worked in sectors such as games and e-commerce and took pa
       { Mynet Games}{}
       {Senior Software Engineer}{January 2021  - Present}
          \resumeItemListStart
-         \resumeItem{}  
-          {In order to sending an events over Unity Clients , it was developed SDK}
           \resumeItem{}
-         { In order to collect game events , game analytics pipeline has been created on AWS. (Fargate, Kinesis Data Stream, Firehose, Lambda, S3, SNS, SQS, CodeDeploy, Golang)}
+         { In order to collect game events , game analytics pipeline has been created on AWS. (\textbf{Fargate, Kinesis Data Stream, Firehose, Lambda, S3, SNS, SQS, CodeDeploy, Golang})}
          \resumeItem{}
-   	 	 {A panel was developed to manage events in realtime. (React, AWS Amplify, Lambda)}
+   	 	 {A panel was developed to manage events in realtime. (\textbf{React, AWS Amplify, Lambda})}
         \resumeItem{}
          { In order to showing data on Tableau, configured Snowflake as DWH}
-                 \resumeItem{}
+        \resumeItem{}
          { ETL processes created with Apache Airflow}
-                      \resumeItem{}
-         {  CI / CD pipeline for Unity Android / iOS build.(Jenkins)}
+        \resumeItem{}
+         {  CI / CD pipeline for Unity Android / iOS build.(\textbf{Jenkins})}
       \resumeItemListEnd
 
 
 
       \resumeSubheading
-      { itelligence TR}{}
+      { NTT DATA Business Solutions Turkey}{}
       {Senior Software Engineer}{July 2020  - January 2021}
          \resumeItemListStart
          \resumeItem{}  
-          {Ranking of customers according to the loyalty program.(Spring Boot, Spring Cloud, Spring Security)}
+          {Ranking of customers according to the loyalty program.(\textbf{Spring Boot, Spring Cloud, Spring Security})}
             \resumeItem{}
            {RFM scoring for clients}
           \resumeItem{}
          {GDPR and KVKK integration (SMS permissions)}
          \resumeItem{}
-   	 	 {Creating Event Driven Architecture to feed data to external systems (Apache MQ)}
+   	 	 {Creating Event Driven Architecture to feed data to external systems (\textbf{Apache MQ})}
         \resumeItem{}
-         {Developing the CI/CD pipeline(Jenkins)}
+         {Developing the CI/CD pipeline(\textbf{Jenkins})}
       \resumeItemListEnd
 
 
 
       \resumeSubheading
-      {Oredata(Consultant)}{ December 2018 - July 2020}
+      {Oredata(Consultant)}
+       {Senior Software Engineer}{December 2018 - July 2020}
       
-       \textbf{Software Engineer  - BKM }
       \resumeItemListStart
         \resumeItem{}
-		{Developing the applications of the Interbank Card Center(OpenShift, Jenkins, Liquibase, Hazelcast, Prometheus, Spring Cloud, Spring Boot,... )}
-      \resumeItemListEnd
-  
-  
+		{Developing the applications of the \textbf{Interbank Card Center}(\textbf{OpenShift, Jenkins, Liquibase, Hazelcast, Prometheus, Spring Cloud, Spring Boot,... })}
 
-       \textbf{Software/Data Engineer  - Ingame(Zula Game) }
-      \resumeItemListStart
         \resumeItem{}
-		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios(Golang, Kubernetes Engine, Apache Flink)}
+		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios(\textbf{Golang, Kubernetes Engine, Apache Flink})(\textbf{Zula Game})}
     
-      \resumeItemListEnd
- 
-
-       \textbf{Software Engineer/Data Engineer  - n11 }
-      \resumeItemListStart
         \resumeItem{}
-		{Building a tool that creates and schedules rule-based segments, like  euromessage(Google BigQuery, Spring Boot, Airflow, Quartz, Kafka, Golang )}
+		{Building a tool that creates and schedules rule-based segments, like  euromessage( \textbf{Google BigQuery, Spring Boot, Airflow, Quartz, Kafka, Golang} )(\textbf{n11})}
         \resumeItem{}
 		{Building a UI where we can manage segments and other units}
     
-      \resumeItemListEnd
-  
-
-      \textbf{Software/Data Engineer  - Defacto }
-      \resumeItemListStart
         \resumeItem{}
-		{Recommendation Engine with Apache prediction.io(Kafka, Hbase, Spark Mllib, Hadoop, Spring Boot, Golang)  }
-         \resumeItem{}
-		{Javascript SDK to send events and show recommended products(mustache.js, swiper, vanilla js) }
-
-            
-      \resumeItemListEnd
-  
-  
-        \textbf{Software Engineer - Turk Telekom }
-      \resumeItemListStart
-        \resumeItem{}
-          {Data manipulation, visualization and summarization on big data (pandas, numpy etc)}
-        \resumeItem{}
-          {Data analysis with Node.js on big data (ES6+ and Built-in modules, D3.js and other manupulation tools)}
+		{Recommendation Engine with Apache prediction.io(\textbf{Kafka, Hbase, Spark Mllib, Hadoop, Spring Boot, Golang})(\textbf{Defacto})  }
      
       \resumeItemListEnd
       
@@ -190,18 +160,10 @@ As a data engineer, I worked in sectors such as games and e-commerce and took pa
       {Software Developer}{April 2017 - November 2018}
       \resumeItemListStart
         \resumeItem{}
-          {Push Notification development processes(APNs, Firebase)}
+          {Push Notification development processes(\textbf{APNs, Firebase})}
         \resumeItem{}
-          {Android and iOS SDK  development processes (Kotlin and Swift)}
-        \resumeItem{}
-          {Other  development processes(Spring Boot, Redis etc)}  
-        \resumeItem{}
-          {Adding JavaScript integration to customers(JS)}
-         \resumeItem{}
-          {We made widget,popup banner,push notification etc. based on customer requests}
-         \resumeItem{}
-          {Segment by customer actions and show appropriate campaigns(JS)}
-     
+          {Android and iOS SDK  development processes (\textbf{Kotlin and Swift})}
+    
       \resumeItemListEnd
                       
 
@@ -215,43 +177,6 @@ As a data engineer, I worked in sectors such as games and e-commerce and took pa
       {Osmangazi University}{Eskisehir}
       {Matematik-Bilgisayar;  GPA: 2.68}{September 2011 -- August 2016}
   \resumeSubHeadingListEnd
-
-
-%--------PROGRAMMING SKILLS------------
-\section{Programming Skills}
-  \resumeSubHeadingListStart
-    \item{
-      \textbf{Languages :}{ Java, Go, Javascript}
-     \item     
-      \textbf{Frameworks and Libraries : }{ Spring Boot, Spring Cloud,Spring Security,Spring MVC, React, Node.js }
-      \item     
-      \textbf{Databases : }{ PostgreSQL, MongoDB, Redis, Elasticsearch, MySQL }
-      \item     
-      \textbf{Container/Management Tool : }{ Docker, Kubernetes Engine }
-      \item 
-      \textbf{ CI/CD : }{ Jenkins, Gitlab CI/CD } 
-      \item     
-      \textbf{ Version Control System : }{ git }
-       \item     
-      \textbf{ BigData and Stream Processing : }{ Hadoop, Spark, Hbase, Flink, Airflow, Kafka } 
-      \item  
-      \textbf{ Recommendation Framework : }{ PredictionIO } 
-      \item 
-      \textbf{ Testing Framework : }{ JUnit } 
-      \item 
-      \textbf{ Project Management : }{ Jira } 
-      \item 
-      \textbf{ Cloud : }{ AWS ,Gcloud }
-    }
-  \resumeSubHeadingListEnd
-
-
-
-
-
-
-
-
 
 
 
