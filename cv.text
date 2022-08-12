@@ -102,17 +102,10 @@ As a data engineer, I worked in sectors such as games and e-commerce and took pa
       {Senior Software Engineer}{January 2021  - Present}
          \resumeItemListStart
           \resumeItem{}
-         { In order to collect game events , game analytics pipeline has been created on AWS. (\textbf{Fargate, Kinesis Data Stream, Firehose, Lambda, S3, SNS, SQS, CodeDeploy, Golang})}
-         \resumeItem{}
-   	 	 {A panel was developed to manage events in realtime. (\textbf{React, AWS Amplify, Lambda})}
-        \resumeItem{}
-         { In order to showing data on Tableau, configured Snowflake as DWH}
-        \resumeItem{}
-         { ETL processes created with Apache Airflow}
+         { In order to collect game events , game analytics pipeline has been created on AWS. (\textbf{ECS,Fargate, Kinesis Data Stream, Firehose, Lambda, S3, SNS, SQS, CodeDeploy,Snowflake,Airflow, Golang})}
         \resumeItem{}
          {  CI / CD pipeline for Unity Android / iOS build.(\textbf{Jenkins})}
       \resumeItemListEnd
-
 
 
       \resumeSubheading
@@ -160,7 +153,7 @@ As a data engineer, I worked in sectors such as games and e-commerce and took pa
       {Software Engineer}{April 2017 - November 2018}
       \resumeItemListStart
         \resumeItem{}
-          {Push Notification development processes(\textbf{APNs, Firebase})}
+          {Push Notification development processes(\textbf{Spring Boot, APNs, Firebase})}
         \resumeItem{}
           {Android and iOS SDK  development processes (\textbf{Kotlin and Swift})}
     
