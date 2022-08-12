@@ -102,7 +102,9 @@ As a data engineer, I worked in sectors such as games and e-commerce and took pa
       {Senior Software Engineer}{January 2021  - Present}
          \resumeItemListStart
           \resumeItem{}
-         { In order to collect game events , game analytics pipeline has been created on AWS. (\textbf{ECS,Fargate, Kinesis Data Stream, Firehose, Lambda, S3, SNS, SQS, CodeDeploy,Snowflake,Airflow, Golang})}
+         { In order to collect game events , game analytics pipeline has been created on AWS. (\textbf{ECS,Fargate, Kinesis Data Stream, Firehose, Lambda, S3, SNS, SQS, CodeDeploy,Snowflake,Airflow, Golang, gRPC})}
+          \resumeItem{}
+           {It usually receives 6M+ events on a daily basis and  can be scaled with ECS.}
         \resumeItem{}
          {  CI / CD pipeline for Unity Android / iOS build.(\textbf{Jenkins})}
       \resumeItemListEnd
@@ -125,25 +127,22 @@ As a data engineer, I worked in sectors such as games and e-commerce and took pa
       \resumeItemListEnd
 
 
-
       \resumeSubheading
       {Oredata(Consultant)}{}
        {Software Engineer}{December 2018 - July 2020}
       
       \resumeItemListStart
         \resumeItem{}
-		{Developing the applications of the \textbf{Interbank Card Center}(\textbf{OpenShift, Jenkins, Liquibase, Hazelcast, Prometheus, Spring Cloud, Spring Boot,... })}
+		{Developing the applications of the MobilePOS project.It allows us to use phones as pos(Point of sale) devices. (\textbf{OpenShift, Jenkins, Liquibase, Hazelcast, Prometheus, Spring Cloud, Spring Boot,... })} (\textbf{Company: Interbank Card Center })
 
         \resumeItem{}
-		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios(\textbf{Golang, Kubernetes Engine, Apache Flink})(\textbf{Zula Game})}
+		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios. Real time events can be processed and action can be taken accordingly(\textbf{Golang, Kubernetes Engine, Apache Flink})(\textbf{Company:  Zula Game})}
     
         \resumeItem{}
-		{Building a tool that creates and schedules rule-based segments, like  euromessage( \textbf{Google BigQuery, Spring Boot, Airflow, Quartz, Kafka, Golang} )(\textbf{n11})}
-        \resumeItem{}
-		{Building a UI where we can manage segments and other units}
+		{Building a tool that creates and schedules rule-based segments. In 11.11 days, they were able to instantly see the products purchased in all categories with the real-time dashboard ( \textbf{Google BigQuery, Spring Boot, Airflow, Quartz, Kafka, Golang} )(\textbf{Company: n11})}
     
         \resumeItem{}
-		{Recommendation Engine with Apache prediction.io(\textbf{Kafka, Hbase, Spark Mllib, Hadoop, Spring Boot, Golang})(\textbf{Defacto})  }
+		{Recommendation Engine with Apache prediction.io. As in Amazon and Netflix, it can show results related to the product that the user is browsing. (\textbf{Kafka, Hbase, Spark Mllib, Hadoop, Spring Boot, Golang})(\textbf{Company: Defacto})  }
      
       \resumeItemListEnd
       
