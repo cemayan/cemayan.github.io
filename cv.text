@@ -102,11 +102,13 @@ As a data engineer, I worked in sectors such as games and e-commerce and took pa
       {Senior Software Engineer}{January 2021  - Present}
          \resumeItemListStart
           \resumeItem{}
-         { In order to collect game events , game analytics pipeline has been created on AWS. (\textbf{ECS,Fargate, Kinesis Data Stream, Firehose, Lambda, S3, SNS, SQS, CodeDeploy,Snowflake,Airflow, Golang, gRPC})}
+         { In order to collect game events , game analytics pipeline has been created on AWS.}
           \resumeItem{}
-           {It usually receives 6M+ events on a daily basis and  can be scaled with ECS.}
+           {Events are processed with \textbf{Golang} microservices on \textbf{EKS}. \textbf{gRPC} was used for inter-microservice communication.}   
+          \resumeItem{}
+          {DWH architecture was created on \textbf{Snowflake} and the data came with TASKs over \textbf{S3}.}
         \resumeItem{}
-         {  CI / CD pipeline for Unity Android / iOS build.(\textbf{Jenkins})}
+         {  CI/CD pipeline built with \textbf{Jenkins}}
       \resumeItemListEnd
 
 
@@ -121,9 +123,9 @@ As a data engineer, I worked in sectors such as games and e-commerce and took pa
           \resumeItem{}
          {GDPR and KVKK integration (SMS permissions)}
          \resumeItem{}
-   	 	 {Creating Event Driven Architecture to feed data to external systems (\textbf{Apache MQ})}
+   	 	 {Creating Event Driven Architecture to feed data to external systems with \textbf{Apache MQ}}
         \resumeItem{}
-         {Developing the CI/CD pipeline(\textbf{Jenkins})}
+         {  CI/CD pipeline built with \textbf{Jenkins}}
       \resumeItemListEnd
 
 
@@ -133,10 +135,10 @@ As a data engineer, I worked in sectors such as games and e-commerce and took pa
       
       \resumeItemListStart
         \resumeItem{}
-		{Developing the applications of the MobilePOS project.It allows us to use phones as pos(Point of sale) devices. (\textbf{OpenShift, Jenkins, Liquibase, Hazelcast, Prometheus, Spring Cloud, Spring Boot,... })} (\textbf{Company: Interbank Card Center })
+		{Developing the applications of the MobilePOS project.It allows us to use phones as pos(Point of sale) devices. (\textbf{OpenShift, Jenkins, Liquibase, Hazelcast, Prometheus, Spring Cloud, Spring Boot,... })} (\textbf{Company: Interbank Card Center(BKM)} )
 
         \resumeItem{}
-		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios. Real time events can be processed and action can be taken accordingly(\textbf{Golang, Kubernetes Engine, Apache Flink})(\textbf{Company:  Zula Game})}
+		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios. Real time events can be processed and action can be taken accordingly(\textbf{Golang, Kubernetes Engine, Apache Flink})(\textbf{Company:  Ingame Group})}
     
         \resumeItem{}
 		{Building a tool that creates and schedules rule-based segments. In 11.11 days, they were able to instantly see the products purchased in all categories with the real-time dashboard ( \textbf{Google BigQuery, Spring Boot, Airflow, Quartz, Kafka, Golang} )(\textbf{Company: n11})}
@@ -167,7 +169,7 @@ As a data engineer, I worked in sectors such as games and e-commerce and took pa
   \resumeSubHeadingListStart
     \resumeSubheading
       {Osmangazi University}{Eskisehir}
-      {Matematik-Bilgisayar;  GPA: 2.68}{September 2011 -- August 2016}
+      {Mathematics and Computer;  GPA: 2.68}{September 2011 -- August 2016}
   \resumeSubHeadingListEnd
 
 
