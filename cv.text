@@ -117,11 +117,11 @@ As a data engineer, I worked in sectors such as games and e-commerce and took pa
       {Senior Software Engineer}{July 2020  - January 2021}
          \resumeItemListStart
          \resumeItem{}  
-          {Ranking of customers according to the loyalty program.(\textbf{Spring Boot, Spring Cloud, Spring Security})}
+          {Ranking of customers according to the loyalty program. Written with \textbf{Spring Boot}, this application includes APIs from loyalty program such as Score Inquiry, Campaign creation etc.(\textbf{Spring Boot, Spring Cloud, Spring Security})}
             \resumeItem{}
-           {RFM scoring for clients}
+           {Customers are segmented by RFM scoring}
           \resumeItem{}
-         {GDPR and KVKK integration (SMS permissions)}
+         {ntegration of GDPR and KVKV regulations}
          \resumeItem{}
    	 	 {Creating Event Driven Architecture to feed data to external systems with \textbf{Apache MQ}}
         \resumeItem{}
@@ -135,16 +135,16 @@ As a data engineer, I worked in sectors such as games and e-commerce and took pa
       
       \resumeItemListStart
         \resumeItem{}
-		{Developing the applications of the MobilePOS project.It allows us to use phones as pos(Point of sale) devices. (\textbf{OpenShift, Jenkins, Liquibase, Hazelcast, Prometheus, Spring Cloud, Spring Boot,... })} (\textbf{Company: Interbank Card Center(BKM)} )
+		{Developing the applications of the MobilePOS project.It allows us to use phones as pos(Point of sale) devices. The bank simulator written with \textbf{Spring boot} decides which bank to transfer the payment request from the relevant bank and sends this payment request to the relevant bank.(\textbf{OpenShift, Jenkins, Liquibase, Hazelcast, Prometheus, Spring Cloud, Spring Boot,... })} (\textbf{Company: Interbank Card Center(BKM)} )
 
         \resumeItem{}
-		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios. Real time events can be processed and action can be taken accordingly(\textbf{Golang, Kubernetes Engine, Apache Flink})(\textbf{Company:  Ingame Group})}
+		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios. Real time events can be processed and action can be taken accordingly. App written in \textbf{Golang} sends incoming game events to \textbf{GCP Pub/Sub}. Afterwards, these events are sent to \textbf{Apache Flink} and real-time stream analysis is performed. According to the settings created on the panel, settings such as windowing, aggregation, etc. on \textbf{Apache Flink} can be adjusted.(\textbf{Golang, Kubernetes Engine, Apache Flink})(\textbf{Company:  Ingame Group})}
     
         \resumeItem{}
-		{Building a tool that creates and schedules rule-based segments. In 11.11 days, they were able to instantly see the products purchased in all categories with the real-time dashboard ( \textbf{Google BigQuery, Spring Boot, Airflow, Quartz, Kafka, Golang} )(\textbf{Company: n11})}
+		{Building a tool that creates and schedules rule-based segments. Event handler written in \textbf{Golang} sends relevant events to \textbf{Kafka}. In 11.11 days, using \textbf{Apache Druid}, they were able to instantly see the products purchased in all categories with a real-time dashboard. Apart from that, the \textbf{Spring Boot} application, which receives the settings given in the form of JSON, works as a \textbf{Quartz} watch schedule and creates segments according to the events on \textbf{BigQuery}. According to these segments, an email or push campaign is created with the help of a panel. ( \textbf{Google BigQuery, Spring Boot, Quartz, Kafka, Golang} )(\textbf{Company: n11})}
     
         \resumeItem{}
-		{Recommendation Engine with Apache prediction.io. As in Amazon and Netflix, it can show results related to the product that the user is browsing. (\textbf{Kafka, Hbase, Spark Mllib, Hadoop, Spring Boot, Golang})(\textbf{Company: Defacto})  }
+		{Recommendation Engine with Apache prediction.io. As in Amazon and Netflix, it can show results related to the product that the user is browsing. \textbf{Spring boot} application with \textbf{Quartz} periodically takes the feed provided by Defacto.com and updates the products regularly. With \textbf{Apache Prediction.io}, the products in the site are trained with the model created on \textbf{Spark ML}. Afterwards, predictions are taken with http request to the created model. (\textbf{Kafka, Hbase, Spark Mllib, Hadoop, Spring Boot, Quartz, Golang})(\textbf{Company: Defacto})  }
      
       \resumeItemListEnd
       
