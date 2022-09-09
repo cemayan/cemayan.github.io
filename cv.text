@@ -18,6 +18,7 @@ https://texviewer.herokuapp.com
 \usepackage[pdftex]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[utf8]{inputenc}
+\usepackage{graphicx}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -41,17 +42,17 @@ https://texviewer.herokuapp.com
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+}{}{0em}{}[\color{BlueViolet}\titlerule \vspace{-5pt}]
 
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
-  \item\footnotesize{
+  \item\footnotesize\color{Black}{
     \textbf{#1}{ #2 \vspace{-2pt}}
   }
 }
 
-\newcommand{\resumeSubheading}[4]{
+\newcommand{\resumeSubheading}[4]{ 
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
@@ -66,7 +67,7 @@ https://texviewer.herokuapp.com
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -76,30 +77,28 @@ https://texviewer.herokuapp.com
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://cemayan.com/}{\Large Cem Ayan}} & Email : \href{mailto:cem\_ayan@outlook.com}{cem\_ayan@outlook.com}\\
+  \textbf{{\Large\color{CadetBlue} Cem Ayan}} & Email : \href{}{\color{CadetBlue}cem\_ayan@outlook.com}\\
     \textbf{\textit{Software Engineer}}\\
-   & Mobile : +905376413106 \\
-  \href{https://github.com/cemayan}{https://github.com/cemayan}  \\
-    \href{https://medium.com/@cemayan}{https://medium.com/@cemayan}
+   & Mobile : \color{CadetBlue} +905376413106 \\
+  \href{}{\color{Gray} https://github.com/cemayan}  \\
+    \href{}{\color{Gray}https://medium.com/@cemayan}
 \end{tabular*}
     
 
 %-----------SUMMARY-----------------
-\section{Summary}
+\section{\color{CadetBlue} Summary}
 	\footnotesize{As a software engineer, I developed microservices and APIs in high-scale and high-traffic projects with Java and Golang and I continue to improve myself in this field. Although I am particularly interested in distributed systems and microservices, I am also interested in other areas.
-
-As a data engineer, I worked in sectors such as games and e-commerce and took part in the creation of DWH architectures in these areas.}
-
+}
 
 
 %-----------EXPERIENCE-----------------
-\section{Experience}
+\section{\color{CadetBlue} Experience}
   \resumeSubHeadingListStart
   
   
         \resumeSubheading
-     {\href{http://www.mynet.games}{\Medium  Mynet Games}}{}     
-     {Senior Software Engineer}{January 2021  - Present}
+     {{\Medium   Mynet Games}}{}     
+     {\color{CadetBlue}Senior Software Engineer}{\color{Gray}January 2021  - Present}
          \resumeItemListStart
           \resumeItem{}
          { In order to collect game events , game analytics pipeline has been created on AWS.}
@@ -113,8 +112,8 @@ As a data engineer, I worked in sectors such as games and e-commerce and took pa
 
 
       \resumeSubheading
-       {\href{https://www.linkedin.com/company/ntt-data-business-solutions-turkey/?originalSubdomain=tr}{\Medium  NTT DATA Business Solutions Turkey}}{}
-      {Senior Software Engineer}{July 2020  - January 2021}
+       {{\Medium   NTT DATA Business Solutions Turkey}}{}
+      {\color{CadetBlue}Senior Software Engineer}{\color{Gray}July 2020  - January 2021}
          \resumeItemListStart
          \resumeItem{}  
           {Ranking of customers according to the loyalty program. Written with \textbf{Spring Boot}, this application includes APIs from loyalty program such as Score Inquiry, Campaign creation etc.(\textbf{Spring Boot, Spring Cloud, Spring Security})}
@@ -130,46 +129,60 @@ As a data engineer, I worked in sectors such as games and e-commerce and took pa
 
 
       \resumeSubheading
-      {Oredata(Consultant)}{}
-       {Software Engineer}{December 2018 - July 2020}
+      {\Medium Oredata(Consultant)}{}
+       {\color{CadetBlue}Software Engineer}{\color{Gray}December 2018 - July 2020}
       
       \resumeItemListStart
         \resumeItem{}
-		{Developing the applications of the MobilePOS project.It allows us to use phones as pos(Point of sale) devices. The bank simulator written with \textbf{Spring boot} decides which bank to transfer the payment request from the relevant bank and sends this payment request to the relevant bank.(\textbf{OpenShift, Jenkins, Liquibase, Hazelcast, Prometheus, Spring Cloud, Spring Boot,... })} (Company:  \href{https://bkm.com.tr}{\Medium Interbank Card Center } )
+		{Developing the applications of the MobilePOS project.It allows us to use phones as pos(Point of sale) devices. The bank simulator written with \textbf{Spring boot} decides which bank to transfer the payment request from the relevant bank and sends this payment request to the relevant bank.(\textbf{OpenShift, Jenkins, Liquibase, Hazelcast, Prometheus, Spring Cloud, Spring Boot,... })} (Company: {\Medium \textbf{Interbank Card Center} } )
 
         \resumeItem{}
-		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios. Real time events can be processed and action can be taken accordingly. App written in \textbf{Golang} which is runnig on GCP EKS sends incoming game events to \textbf{GCP Pub/Sub}. Afterwards, these events are sent to \textbf{Apache Flink} and real-time stream analysis is performed. According to the settings created on the panel, settings such as windowing, aggregation, etc. on \textbf{Apache Flink} can be adjusted.(\textbf{Golang, Kubernetes Engine, Apache Flink})(Company:  \href{https://www.ingamegroup.com}{\Medium Ingame Group} )}
+		{As Cloud Native, processing in-game activities according to certain rules and producing scenarios. Real time events can be processed and action can be taken accordingly. App written in \textbf{Golang} which is runnig on GCP EKS sends incoming game events to \textbf{GCP Pub/Sub}. Afterwards, these events are sent to \textbf{Apache Flink} and real-time stream analysis is performed. According to the settings created on the panel, settings such as windowing, aggregation, etc. on \textbf{Apache Flink} can be adjusted.(\textbf{Golang, Kubernetes Engine, Apache Flink})(Company:  {\Medium \textbf{Ingame Group}} )}
     
         \resumeItem{}
-		{Building a tool that creates and schedules rule-based segments. Event handler written in \textbf{Golang} sends relevant events to \textbf{Kafka}. In 11.11 days, using \textbf{Apache Druid}, they were able to instantly see the products purchased in all categories with a real-time dashboard. Apart from that, the \textbf{Spring Boot} application, which receives the settings given in the form of JSON, works as a \textbf{Quartz} watch schedule and creates segments according to the events on \textbf{BigQuery}. According to these segments, an email or push campaign is created with the help of a panel. ( \textbf{Google BigQuery, Spring Boot, Quartz, Kafka, Golang} )(Company:  \href{https://www.n11.com}{\Medium n11} )}
+		{Building a tool that creates and schedules rule-based segments. Event handler written in \textbf{Golang} sends relevant events to \textbf{Kafka}. In 11.11 days, using \textbf{Apache Druid}, they were able to instantly see the products purchased in all categories with a real-time dashboard. Apart from that, the \textbf{Spring Boot} application, which receives the settings given in the form of JSON, works as a \textbf{Quartz} watch schedule and creates segments according to the events on \textbf{BigQuery}. According to these segments, an email or push campaign is created with the help of a panel. ( \textbf{Google BigQuery, Spring Boot, Quartz, Kafka, Golang} )(Company:  {\Medium \textbf{n11}} )}
     
         \resumeItem{}
-		{Recommendation Engine with Apache prediction.io. As in Amazon and Netflix, it can show results related to the product that the user is browsing. \textbf{Spring boot} application with \textbf{Quartz} periodically takes the feed provided by Defacto.com and updates the products regularly. With \textbf{Apache Prediction.io}, the products in the site are trained with the model created on \textbf{Spark ML}. Afterwards, predictions are taken with http request to the created model. (\textbf{Kafka, Hbase, Spark Mllib, Hadoop, Spring Boot, Quartz, Golang})(Company:  \href{https://www.defacto.com.tr}{\Medium Defacto} ) }
+		{Recommendation Engine with Apache prediction.io. As in Amazon and Netflix, it can show results related to the product that the user is browsing. \textbf{Spring boot} application with \textbf{Quartz} periodically takes the feed provided by Defacto.com and updates the products regularly. With \textbf{Apache Prediction.io}, the products in the site are trained with the model created on \textbf{Spark ML}. Afterwards, predictions are taken with http request to the created model. (\textbf{Kafka, Hbase, Spark Mllib, Hadoop, Spring Boot, Quartz, Golang})(Company:  {\Medium \textbf{Defacto}} ) }
      
       \resumeItemListEnd
       
       
+  
+               
     \resumeSubheading
-      {\href{https://www.segmentify.com}{\Medium Segmentify}}{}
-      {Software Engineer}{April 2017 - November 2018}
+      {{\Medium Segmentify}}{}
+      {\color{CadetBlue}Software Engineer}{\color{Gray}April 2017 - November 2018}
       \resumeItemListStart
+
         \resumeItem{}
           {Push and email campaigns can be created on the Segmentify panel. It takes actions according to this created campaign written with \textbf{Spring Boot}.}
         \resumeItem{}
           {Helped develop SDK with \textbf{Kotlin} and \textbf{Swift} to get Segmentify working on mobile}
     
       \resumeItemListEnd
-                      
+      
+      
+    \resumeSubheading
+      {{\Medium Alpata Tech}}{}
+      {\color{CadetBlue}Software Engineer}{\color{Gray}October 2016 - April 2017}
+      \resumeItemListStart
+        \resumeItem{}
+          {A live sales transaction module that will be used for sales by the stock exchanges in the provinces in Turkey has been written}
+        \resumeItem{}   
+          {Developed B2B and B2C software for companies}
+    
+      \resumeItemListEnd          
 
   \resumeSubHeadingListEnd
 
 
 %-----------EDUCATION-----------------
-\section{Education}
+\section{\color{CadetBlue}Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Osmangazi University}{Eskisehir}
-      {Mathematics and Computer;  GPA: 2.68}{September 2011 -- August 2016}
+      {Osmangazi University}{\color{CadetBlue}Eskisehir,Turkey}
+      {\color{CadetBlue}Mathematics and Computer;  GPA: 2.68}{\color{Gray}September 2011 -- August 2016}
   \resumeSubHeadingListEnd
 
 
