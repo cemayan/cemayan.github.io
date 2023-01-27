@@ -1,5 +1,3 @@
-https://texviewer.herokuapp.com
-
 %-------------------------
 % Resume in Latex
 % Author : Sourabh Bajaj
@@ -80,8 +78,8 @@ https://texviewer.herokuapp.com
   \textbf{{\Large\color{CadetBlue} Cem Ayan}} & Email : {\color{CadetBlue}  \texttt{\detokenize{cem_ayan@outlook.com}}}\\
     \textbf{\textit{Software Engineer}}\\
    & Mobile : \color{CadetBlue} +905376413106 \\
-  \href{}{\includegraphics[width=5mm,scale=1]{GitHub-Mark-32px.png}\color{Gray}\ cemayan}  \
-    \href{}{\includegraphics[width=5mm,scale=1]{3721675_medium_icon.png}\color{Gray} \ @cemayan}
+  \href{}{\includegraphics[width=5mm,scale=1]{github.png}\color{Gray}\ cemayan}  \
+    \href{}{\includegraphics[width=5mm,scale=1]{medium.png}\color{Gray} \ @cemayan}
 \end{tabular*}
     
     
@@ -98,9 +96,20 @@ https://texviewer.herokuapp.com
   \resumeSubHeadingListStart
   
   
+  
+        \resumeSubheading
+     {{\Medium  ING Netherland}}{}     
+     {\color{CadetBlue}Senior Software Engineer}{\color{Gray}December 2022  - Present}
+         \resumeItemListStart
+          \resumeItem{}
+         {Creating Terraform custom provider with Golang for use on ING private cloud }
+      \resumeItemListEnd
+  
+  
+  
         \resumeSubheading
      {{\Medium   Mynet Games}}{}     
-     {\color{CadetBlue}Senior Software Engineer}{\color{Gray}January 2021  - Present}
+     {\color{CadetBlue}Senior Software Engineer}{\color{Gray}January 2021  - December 2022}
          \resumeItemListStart
           \resumeItem{}
          {In order to collect game events , game analytics pipeline has been created on \textbf{AWS}. An average of 100M events are processed daily in the \textbf{Çanak Okey} game.}
