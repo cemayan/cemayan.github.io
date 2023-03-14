@@ -78,8 +78,8 @@
   \textbf{{\Large\color{CadetBlue} Cem Ayan}} & Email : {\color{CadetBlue}  \texttt{\detokenize{cem_ayan@outlook.com}}}\\
     \textbf{\textit{Software Engineer}}\\
    & Mobile : \color{CadetBlue} +905376413106 \\
-  \href{}{\includegraphics[width=5mm,scale=1]{github.png}\color{Gray}\ cemayan}  \
-    \href{}{\includegraphics[width=5mm,scale=1]{medium.png}\color{Gray} \ @cemayan}
+  \href{}{\includegraphics[width=5mm,scale=1]{github-logo.png}\color{Gray}\ cemayan}  \
+    \href{}{\includegraphics[width=6mm,scale=2]{medium-logo.png}\color{Gray} \ @cemayan}
 \end{tabular*}
     
     
@@ -87,6 +87,9 @@
 %-----------SUMMARY-----------------
 \section{\color{CadetBlue} Summary}
 	\footnotesize{As a software engineer, I developed microservices and APIs in high-scale and high-traffic projects with \textbf{Java} and \textbf{Golang} and I continue to improve myself in this field. Although I am particularly interested in distributed systems and microservices, I am also interested in other areas.
+
+I applied patterns such as \textbf{CQRS}, \textbf{Saga}, \textbf{Event Sourcing}, \textbf{Transactional Outbox} on microservices.
+Apart from these, I developed cloud native applications on AWS and GCP and contributed to the development of the architectures there.
 }
 
 \vspace{-0.2cm}
@@ -102,7 +105,9 @@
      {\color{CadetBlue}Senior Software Engineer}{\color{Gray}December 2022  - Present}
          \resumeItemListStart
           \resumeItem{}
-         {Creating Terraform custom provider with Golang for use on ING private cloud }
+         {Creating Terraform custom provider with \textbf{Golang} for use on ING private cloud }
+               \resumeItem{}
+         {Automatically creating route, authentication, rate limiting etc. features of APIs over the swagger json file provided on \textbf{Kong}. }
       \resumeItemListEnd
   
   
@@ -112,11 +117,20 @@
      {\color{CadetBlue}Senior Software Engineer}{\color{Gray}January 2021  - December 2022}
          \resumeItemListStart
           \resumeItem{}
-         {In order to collect game events , game analytics pipeline has been created on \textbf{AWS}. An average of 100M events are processed daily in the \textbf{Çanak Okey} game.}
+         {In order to collect game events , game analytics pipeline has been created on \textbf{AWS}.  (\textbf{Kinesis Firehose, ECS, Fargate(Graviton2), S3, Cloudwatch, ALB, Lambda, ECR, Route53, CodeDeploy} )}
           \resumeItem{}
            {Events are processed with \textbf{Golang} microservices on \textbf{EKS}. \textbf{gRPC} was used for inter-microservice communication.}   
           \resumeItem{}
           {DWH architecture was created on \textbf{Snowflake} and the data came with \textbf{Snowflake TASK}s over \textbf{S3}.}
+          
+           \resumeItem{}
+          {CI/CD pipeline built end-to-end. (Unity Build, Versioning, Upload Store, Slack Notifications)}
+          
+           \resumeItem{}
+          {A data warehouse / data visualization project was created with Pulumi using \textbf{AWS}, \textbf{Snowflake} and  \textbf{Tableau}. With this project, any game company can automatically create an infrastructure by entering the relevant provider information.}
+
+          
+          
       \resumeItemListEnd
 
 
@@ -185,7 +199,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Osmangazi University}{\color{CadetBlue}Eskisehir,Turkey}
-      {\color{CadetBlue}Mathematics and Computer;  GPA: 2.68}{\color{Gray}September 2011 -- August 2016}
+      {\color{CadetBlue}Mathematics and Computer}{\color{Gray}September 2011 -- August 2016}
   \resumeSubHeadingListEnd
 
 
