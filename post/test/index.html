@@ -53,7 +53,7 @@
   />
 
   
-  <title>cemayan</title>
+  <title>Emoji Support - cemayan</title>
 
   
   <meta name="theme-color" />
@@ -62,12 +62,8 @@
   
   
   
-  
-  <meta
-    name="description"
-    content="A personal blog"
-  />
-  <meta name="author" content="Cem" />
+  <meta name="description" content="Emoji can be enabled in a Hugo project in a number of ways." />
+  <meta name="author" content="lee.so" />
   
 
   
@@ -103,6 +99,12 @@
 
   
   
+  <script
+    defer
+    src="https://cemayan.com/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
 
   
   
@@ -120,24 +122,20 @@
   
   
   
-  <meta itemprop="name" content="cemayan">
-<meta itemprop="description" content="">
+  <meta itemprop="name" content="Emoji Support">
+<meta itemprop="description" content="Guide to emoji usage in Hugo"><meta itemprop="datePublished" content="2019-03-05T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2019-03-05T00:00:00+00:00" />
+<meta itemprop="wordCount" content="129">
+<meta itemprop="keywords" content="emoji," />
   
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="cemayan"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:title" content="Emoji Support"/>
+<meta name="twitter:description" content="Guide to emoji usage in Hugo"/>
 
   
   
-  <link
-    rel="alternate"
-    type="application/rss&#43;xml"
-    href="https://cemayan.com/index.xml"
-    title="cemayan"
-  />
   
-  
-  <link rel="canonical" href="https://cemayan.com/" />
+  <link rel="canonical" href="https://cemayan.com/post/test/" />
   
   
 </head>
@@ -265,60 +263,80 @@
     >
       
 
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">Emoji Support</h1>
 
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-<div class="-mt-2 mb-16 flex items-center">
-  
-  <div
-    class="mr-5 shrink-0 rounded-full border-[0.5px] border-black/10 bg-white/50 p-3 shadow dark:bg-white/[15%]"
-  >
-    <img
-      class="my-0 aspect-square w-16 rounded-full !bg-black/5 hover:animate-spin dark:!bg-black/80"
-      src="https://www.gravatar.com/avatar/f1882885890b83006591ee12d1c22baf?s=160&amp;d=identicon"
-      alt="Cem"
-    />
-  </div>
-  
-  
-  <div>
-    <h1 class="mb-2 mt-3 text-[1.6rem] font-bold">Cem</h1>
-    <div class="break-words">
-      Discover fresh context
+    
+    <div class="text-sm antialiased opacity-60">
+      
+      <time>Mar 5, 2019</time>
+      
+      
+      
+      
+      <span class="mx-1">&middot;</span>
+      <span>lee.so</span>
+      
     </div>
-  </div>
+    
+  </header>
+
+  <section><p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+<p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
+<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site&rsquo;s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
+<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
+<br>
+<p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
+<hr>
+<p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>.emoji {
+</span></span><span style="display:flex;"><span>font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+
+
+<style>
+.emojify {
+	font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+	font-size: 2rem;
+	vertical-align: middle;
+}
+@media screen and (max-width:650px) {
+  .nowrap {
+    display: block;
+    margin: 25px 0;
+  }
+}
+</style></section>
+
   
-</div>
-
-
-
-
-<section class="relative my-10 first-of-type:mt-0 last-of-type:mb-0">
   
-  <h2 class="!my-0 pb-1 font-bold !leading-none">Emoji Support</h2>
-  <time class="text-sm antialiased opacity-60"
-    >Mar 5, 2019</time
-  >
-  <a class="absolute inset-0 text-[0]" href="https://cemayan.com/post/test/">Emoji Support</a>
-</section>
+  <footer class="mt-12 flex flex-wrap">
+     
+    <a
+      class="mb-1.5 mr-1.5 rounded-lg bg-black/[3%] px-5 py-1.5 no-underline dark:bg-white/[8%]"
+      href="https://cemayan.com/tags/emoji"
+      >emoji</a
+    >
+    
+  </footer>
+  
 
+  
+  
+  
+  
+  
 
+  
+  
 
+  
+  
 
+  
+  
+</article>
 
 
     </main>
