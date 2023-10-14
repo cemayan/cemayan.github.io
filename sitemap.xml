@@ -2,25 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://cemayan.com/tags/aws/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cemayan.com/post/dwh-infrastructure-with-pulumi/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://cemayan.com/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cemayan.com/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cemayan.com/post/test/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <loc>https://cemayan.com/tags/dwh/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cemayan.com/post/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cemayan.com/tags/pulumi/</loc>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cemayan.com/tags/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cemayan.com/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cemayan.com/contact/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cemayan.com/cv/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cemayan.com/categories/</loc>

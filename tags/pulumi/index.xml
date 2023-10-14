@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on cemayan</title>
-    <link>https://cemayan.com/post/</link>
-    <description>Recent content in Posts on cemayan</description>
+    <title>pulumi on cemayan</title>
+    <link>https://cemayan.com/tags/pulumi/</link>
+    <description>Recent content in pulumi on cemayan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2022-2023</copyright>
-    <lastBuildDate>Sat, 14 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cemayan.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://cemayan.com/tags/pulumi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build DWH infrastructure with Pulumi</title>
       <link>https://cemayan.com/post/dwh-infrastructure-with-pulumi/</link>
