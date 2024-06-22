@@ -47,7 +47,6 @@ params:
   tocopen: false
   label:
     text: "cemayan"
-    icon: apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
