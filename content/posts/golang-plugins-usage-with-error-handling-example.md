@@ -18,6 +18,9 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
+ShowShareButtons: true
+ShareButtons: ["linkedin", "twitter"]
+ShowCodeCopyButtons: true
 UseHugoToc: true
 editPost:
     URL: "https://github.com/cemayan/cemayan.github.io/tree/main/content"

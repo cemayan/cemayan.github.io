@@ -15,11 +15,6 @@ comments: false
 disableShare: false
 disableHLJS: false
 hideSummary: false
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 images:
   - "images/gcp_ptemplate.png"

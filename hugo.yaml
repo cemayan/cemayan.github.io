@@ -29,17 +29,17 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowWordCount: true
-  ShareButtons: ["linkedin", "twitter"]
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
+  ShowShareButtons: true
+  ShareButtons: [ "linkedin", "twitter" ]
+  ShowCodeCopyButtons: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowWordCount: true
   comments: false
   hidemeta: false
   hideSummary: false
@@ -53,8 +53,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: cemayan
-    subtitle: >
-      *cat lover 🐈‍⬛ , bicycling/running enthusiast, metal music 🤘🏾, science enthusiast, extremely curious, a bit of a talker, in addition to all these, a person who loves to develop projects and discover new technologies.*
+    subtitle: Do not go gentle into that good night...
     imageUrl: "images/icon.jpeg"
     imageWidth: 120
     imageHeight: 120
@@ -97,12 +96,11 @@ menu:
     - identifier: search
       name: search
       url: "/search"
-      weight: 1
-    - identifier: cv
-      name: cv
-      url: https://cemayan.com/cemayan_cv.pdf
       weight: 2
-
+    - identifier: about
+      name: about
+      url: "/about"
+      weight: 3
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
