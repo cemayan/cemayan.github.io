@@ -73,8 +73,6 @@ params:
       url: "https://github.com/cemayan"
     - name: linkedin
       url: "https://linkedin.com/in/ayancem"
-    - name: email
-      url: "mailto:cem_ayan@outlook.com"
 
   # for search
   # https://fusejs.io/api/options.html
